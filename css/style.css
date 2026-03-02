@@ -121,3 +121,16 @@ button[type='reset']:hover{
     background-color: orange;
     color: white;
 }
+
+small{
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+#phoneNumber{
+    margin-bottom: 0;
+}
+
+#photo{
+    margin-bottom: 0;
+}
