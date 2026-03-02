@@ -122,11 +122,15 @@ button[type='reset']:hover{
     color: white;
 }
 
+small{
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
 #phoneNumber{
     margin-bottom: 0;
 }
 
-small{
-    display: inline-block;
-    margin-bottom: 20px;
+#photo{
+    margin-bottom: 0;
 }
