@@ -11,7 +11,7 @@
 <body>
     <main>
         <header>
-            <img src="img/logo-culturama.png">
+            <img src="img/logo-culturama.png" alt="Logo da culturama">
             <h1>Pesquisa de Opinião</h1>
         </header>
         <section> 
@@ -35,7 +35,8 @@
                     <input id="email" type="email" name="userEmail" required>
                     <br>
                     <label for="phoneNumber">Telefone:</label>
-                    <input id="phoneNumber" type="tel" name="userPhoneNumber" pattern="[0-9]{11}" placeholder="DDD + numero sem espacos">
+                    <input id="phoneNumber" type="tel" name="userPhoneNumber" pattern="[0-9]{11}" placeholder="DDD + numero sem espacos" aria-describedby="phoneHelp">
+                    <small id="phoneHelp">Preencha com 11 digitos no formato: DDD + numeros sem espaço ou hífen</small>
                     <br>
                     <label for="photo">Upload de Foto:</label><br>
                     <input id="photo" type="file" name="userPhoto" accept="image/*">
